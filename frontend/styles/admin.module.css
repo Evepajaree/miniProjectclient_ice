@@ -1,0 +1,105 @@
+.container {
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    font-family: 'Mali', cursive;
+    color: #6bd3b9;
+    background-color:  rgb(53, 50, 50);
+  }
+ 
+  .list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 10px;
+    padding: 1px;
+    flex-wrap: wrap;
+    width: 80vw;
+    font-family: 'Mali', cursive;
+    
+  }
+  
+  .listItem {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid green;
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: 'Mali', cursive;
+    border-radius: 25px;
+  }
+  
+  .byttonupdate{
+    background-color:#4CAF50;;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Mali', cursive;
+  }
+
+  .byttonget{
+    background-color: green;
+    border-radius: 10%;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Mali', cursive;
+  }
+
+  .byttondelet{
+    background-color: red;
+    border-radius: 10%;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Mali', cursive;
+  }
+
+  .byttonadd{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-top: 15px;
+    font-family: 'Mali', cursive;
+  }
+
+  .formadd{
+      display: flex;
+      flex-direction: column;
+      margin: 20px;
+      padding: 20px;
+      border: 2px solid green;
+      font-size: 1.4rem;
+      text-align: center;
+      font-family: 'Mali', cursive;
+      border-radius: 12%;
+  }
